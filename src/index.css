@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+body{
+   background-color: rgb(239, 216, 194);
+}
+
+@keyframes movingText {
+    from{
+        transform:translateX(100%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.movingText-animation{
+    animation: movingText 20s linear infinite;
+}
+
+.navitems:hover{
+  background-color:rgb(239, 216, 194);;
+  color: black;
+}
+
+.box1{
+    width: 50vw;
+    height: 347px;
+}
+
+.box2{
+    width: 50vw;
+    height: 347px;
+}
+
+
+
+.bp{
+    font-size: 13px;
+}
+
+.mp1{
+    color: rgb(69, 194, 38);
+}
+
+.mp2{
+    color: rgb(224, 43, 40);
+}
+
+.mp3{
+    color: rgb(214, 190, 32);
+}
+
+.piechart{
+     width: 300px;
+     height:200px;
+}
+
+
+.squarebox{
+    width: 15px;
+    height: 4px;
+    background-color: rgb(255, 0, 81);
+}

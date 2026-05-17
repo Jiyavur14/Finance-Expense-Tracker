@@ -22,6 +22,11 @@ body{
   color: black;
 }
 
+.active-nav{
+  background-color:rgb(239, 216, 194);;
+  color: black;
+}
+
 .box1{
     width: 50vw;
     height: 347px;
@@ -60,4 +65,47 @@ body{
     width: 15px;
     height: 4px;
     background-color: rgb(255, 0, 81);
+}
+
+table{
+    margin: auto;
+    margin-top: 20px;
+    width: 60%;
+}
+
+table,th,tr,td{ 
+    border: 2px solid black;
+}
+
+th{
+    font-size:x-large;
+    font-weight: 700;
+}
+
+td,thead,tr{
+    text-align: left;
+}
+
+.hhhh{
+    width: 60%;
+}
+
+.linee{
+    height: 2px;
+    width: 60%;
+    margin: auto;
+}
+
+.lineee{
+    width: 64%;
+}
+
+.formm{
+    width: 20%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.goal-barr{
+    width: 64%;
 }
